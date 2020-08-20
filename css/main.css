@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+@media(min-width:468px){
+body{
+  text-align: center;
+}
+h3{
+  font-family: "Inter", sans-serif;
+}
+.upper-p{
+  font-family: "Inter", sans-serif;
+  margin-left: 30%;
+  width:40%;
+  text-align: center;
+}
+p{
+    width:60%;
+    margin-left: 15%;
+    font-family: Inter;
+}
+.container-1{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin: 2% 0%;
+  margin-left: 12%;
+  margin-right: 14%;
+
+
+}
+.container-2{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+}
+.square {
+  width:14%;
+  padding-bottom:14%;
+}
+.One{
+  background-color: #319cea;
+}
+.two{
+  background-color: #3ed319;
+}
+.three{
+  background-color: #ba31ea;
+}
+.four{
+  border:3px solid #319cea;
+}
+.five{
+  border:3px solid #3ed319;
+}
+.six{
+  border:3px solid #ba31ea;
+}
+.container-2 div{
+  border: 3px solid #1fa7f4;
+  padding:1%;
+  margin: 2%;
+}
+box-3 {
+  flex:1;
+  flex-basis: 27%;
+}
+.last-box{
+  border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  background-color: #1fa7f4;
+  color: black;
+  float:right;
+  margin-bottom:4%;
+  margin-right: 2%;
+
+
+}
